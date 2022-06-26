@@ -1,0 +1,20 @@
+{
+  "name": "@kicq/vue3-plugin-typescript",
+  "version": "1.0.6",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.20"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build"
+  }
+}
